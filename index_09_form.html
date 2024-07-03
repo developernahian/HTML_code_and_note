@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Form</title>
+</head>
+<body>
+
+  <!-- NOTE: if we need form collect data and send me by a mail by suing a third party API then see given video link -->
+  <!-- NOTE:  -->
+  <!-- VLINK: https://youtu.be/F37SWZMm1I0?si=peRmh28rBTOKw2dV -->
+
+
+  <!-- form tag video20 start -->
+  <form action="#" method="post"><!--in form tag we must be use action tag and method tag. its mandatory. here method value "post" use for senctive informationlike password and method value "get" use for normal information -->
+    <fieldset><!--fieldset and legend tag both use for formBorder and borderName-->
+      <legend>Contact us</legend>
+
+      First name <br>
+      <input type="text"> <br><br><!--Input tag has no close tag-->
+      Last name <br>
+      <input type="text" placeholder="Enter your last name"><br><br><br><!--flaceholder attrubute for watermark in the box-->
+
+      <input type="radio"> Male <br>
+      <input type="radio"> Female
+      <br><br>
+
+      <input type="submit"><br><br><!--By default browser show "Submit Quary" in the box-->
+      <input type="submit" value="send"><!--send value use for show 'send' in the box-->
+      <br><br><br>
+
+
+      <!--Use NAME in radio for select only one potion, and avoide multiple selection-->
+      <input type="radio" name="x1"> Mane  <!--name attribute for connection wiht other option and its value will be same with other-->
+      <input type="radio" name="x1"> Female
+      <input type="radio" name="x1"> Other
+    </fieldset>
+  </form>
+  <!-- form tag end -->
+
+
+</body>
+</html>

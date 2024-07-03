@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Block div tag</title>
+</head>
+
+<body>
+  <pre>how to convert inline to block type element.........</pre><br><br><br>
+  <!-- Two type of element 1)block type element and 2)inline element -->
+  <!-- we can check which tag is block level element and which tag is is inline element by [Inspect Element] -->
+
+  <div style="text-align: center;">
+    Lorem ipsum dolor sit amet.
+  </div>
+  <!--block level element-->
+
+  <div style="text-align: right;">
+    Lorem ipsum dolor sit amet.
+  </div>
+  <!--block level element-->
+
+  <h2>Hello World.</h2>
+  <h2 style="text-align: center">Hello World.</h2>
+  <!--block level element-->
+
+
+  <a style="text-align: center" href="https://www.google.com/">cleck here</a>
+  <!--a tag is not block level element. It is inline element. thats why "text-align: center" does not work
+      if we show it in center then we need to use CSS. and with CSS example is given below-->
+  <a style="text-align: center; display: block;" href="https://www.google.com/">cleck here</a>
+  <!-- NOTE: display: block; for inline to block element -->
+
+  <span>This is inline element</span>
+  <!-- span tag is inline element -->
+
+
+
+
+</body>
+
+</html>

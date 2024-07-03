@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Form datalist</title>
+</head>
+<body>
+  <!-- Start 1 -->
+  <!--use LIST and ID-->
+  <form action="#" method="post">
+    <h2>Write your browser name:</h2>
+    <input list="browsers"><!--list and id use here for connection between input and datalist and their value will be same-->
+    <datalist id="browsers">
+      <option value="Internet Explorer">
+      <option value="Mozilla Firefox">
+      <option value="Google Chrome">
+      <option value="Opera Browser">
+    </datalist>
+  </form>
+  <!-- End 1 -->
+
+<br>
+
+  <!-- Start 2 get/post and name attribute -->
+  <p>Get method</p>
+  <form action="#" method="get"><!--Get for normal information-->
+    Name:
+    <input type="text">
+    Password:
+    <input type="password">
+    <input type="submit" value="send">
+  </form>
+<br>
+  <p>Post method</p>
+  <form action="#" method="post"><!--Post for sencitive information-->
+    Name:
+    <input name="na" type="text"><!--'name' attribute collect data what user given on browser like username,password and its value sent data in database-->
+    Password:
+    <input name="pas" type="password">
+    <input type="submit" value="send">
+
+  </form>
+  <!-- End 2 -->
+
+
+  
+
+
+</body>
+</html>

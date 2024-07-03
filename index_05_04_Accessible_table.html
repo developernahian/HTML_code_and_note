@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible table</title>
+</head>
+<body>
+    <!-- VLINK: https://youtu.be/kf5L2D_J5ME?si=lSb5MKkDbHV8aX5d -->
+    <!-- WLINK: https://www.w3schools.com/tags/att_th_scope.asp -->
+    <!-- WLINK: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th -->
+    
+    <header> HTML TABLE</header>
+    <main>
+        <table>
+            <caption>Students info</caption>
+
+            <colgroup>
+                <col span="2" style="background-color: yellow;">
+            </colgroup>
+
+            <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">GPA</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th scope="row">101</th>
+                    <td>Rohim</td>
+                    <td>4.00</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">102</th>
+                    <td>Korim</td>
+                    <td>5.00</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

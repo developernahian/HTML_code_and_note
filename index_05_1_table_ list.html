@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Table and list</title>
+</head>
+
+<body>
+  <!-- NOTE: <thead> and <tbody> w3 school er link theke and anisul islam er video te ache -->
+    <!-- WLINK: https://www.w3schools.com/html/html_tables.asp -->
+    <!-- VLINK:  https://youtu.be/yvDlTMs5ZGc?si=a2POHHp80D-tS4Vl -->
+  <!-- Start Table 1 -->
+  <table border="1">
+    <caption>name and age table</caption>
+    <!--this is caption tag-->
+    <!-- The <caption> tag must be inserted immediately after the <table> tag. -->
+    <tr>
+      <!--Table Row-->
+      <th>Frist name</th>
+      <!--Table Header-->
+      <th>Last name</th>
+      <!--if we need table header then we can use it-->
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>Rohim</td>
+      <!--Table data-->
+      <td>Hossen</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <td>Kamrul</td>
+      <td>Islam</td>
+      <td>40</td>
+    </tr>
+  </table>
+  <!-- End table 1 -->
+  <br><br><br>
+
+
+
+
+  <!-- start table 2 -->
+  <table border="10px">
+    <caption>Monthly salary</caption>
+    <tr>
+      <td colspan="4">
+        <center> SALARY REPORT </center>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">NAME and ADDRESS</td>
+      <td>PHONE</td>
+      <td>SALARY</td>
+    </tr>
+    <!--colspan tag for marge table-->
+    <tr>
+      <td rowspan="2">Rohim and Ratan</td>
+      <td>Dhaka</td>
+      <td>0123456789</td>
+      <td>1000</td>
+    </tr><!-- rowspan tag for marge table -->
+    <tr>
+      <td>Khulna</td>
+      <td>57856645</td>
+      <td>5000</td>
+    </tr>
+    <tr>
+      <td>Jahid</td>
+      <td>Khulna</td>
+      <td>57856645</td>
+      <td>5000</td>
+    </tr>
+    <tr>
+      <td>Kamrun</td>
+      <td>Khulna</td>
+      <td>57856645</td>
+      <td>5000</td>
+    </tr>
+  </table>
+  <!-- end table 2 -->
+
+  <br>
+  <br>
+  <br>
+
+  <p>Unorder List</p>
+
+  <!-- ul has style and ol has type -->
+  <!-- Start List -->
+  <!-- Html has 3 type list -->
+  <ul>
+    <!--Unordered List-->
+    <li>Apple</li>
+    <!--List-->
+    <li>Orange</li>
+    <li>Banana</li>
+  </ul>
+
+
+
+  <ul style="list-style-type: circle">
+    <li>Apple</li>
+    <li>Orange</li>
+    <li>Banana</li>
+  </ul>
+
+
+  <ul style="list-style-type: square">
+    <li>Apple</li>
+    <li>Orange</li>
+    <li>Banana</li>
+  </ul>
+
+  <ul style="list-style-type: none">
+    <li>Apple</li>
+    <li>Orange</li>
+    <li>Banana</li>
+  </ul>
+
+  <!-- here disc is diffult style. by default disc -->
+  <ul style="list-style-type: disc">
+    <li>Apple</li>
+    <li>Orange</li>
+    <li>Banana</li>
+  </ul>
+
+<p>Nested *************************************</p>
+  <!-- nested  -->
+  <ol>
+    <li>vegetable</li>
+    <li>rich</li>
+    <li>fish
+      <ul style="list-style: square;">
+        <li>Koi fish</li>
+        <li>Chingri fish</li>
+        <li>Rui fish</li>
+      </ul>
+    </li>
+  </ol>
+  <p>***********************************</p>
+
+  <p>Order Lost</p>
+
+  <ol>
+    <!--Ordered List-->
+    <!--By Default output is 1 2 3-->
+    <li>Apple</li>
+    <!--List-->
+    <li>Orange</li>
+    <li>Banana</li>
+  </ol>
+
+  <ol start="7">
+    <li>Apple</li>
+    <li>Orange</li>
+    <li>Banana</li>
+  </ol>
+
+
+
+  <ol type="A">
+    <li>Apple</li>
+    <li>Orange</li>
+    <li>Banana</li>
+  </ol>
+
+  <ol type="a">
+    <li>Apple</li>
+    <li>Orange</li>
+    <li>Banana</li>
+  </ol>
+
+  <ol type="I">
+    <li>Apple</li>
+    <li>Orange</li>
+    <li>Banana</li>
+  </ol>
+
+  <ol type="i">
+    <li>Apple</li>
+    <li>Orange</li>
+    <li>Banana</li>
+  </ol>
+
+  <br><br>
+
+  <p>description List</p>
+
+  <!-- Description List -->
+  <dl>
+    <dt>Coffee</dt>
+    <!--Definition Term-->
+    <dd>- Black Hot Drink</dd>
+    <!--Description-->
+    <dt>Milk</dt>
+    <dd>White Cold Drink</dd>
+  </dl>
+
+  <!-- End List -->
+
+
+</body>
+
+</html>
